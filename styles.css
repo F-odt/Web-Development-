@@ -1,0 +1,43 @@
+/* styles.css */
+:root {
+    --primary-color: #973131;
+    --secondary-color: #E0A75E;
+    --accent-color: #F9D689;
+    --background-color: #F5E7B2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.project {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.project a {
+    color: #81864A;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #6D712E;
+}
