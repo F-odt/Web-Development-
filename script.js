@@ -11,7 +11,6 @@ function updateSectionContent(sectionId, newText) {
 
 
 window.onload = function() {
-    // Example usage:
     updateSectionContent('about-me', "Hi there! I'm a passionate programming student learning and building exciting projects. Take a walk through my portfolio");
 };
 
